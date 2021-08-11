@@ -1,6 +1,6 @@
 # Install Developer Menu
 
-1. Copy developermenu.efi and ui/ to Windows/System32/BOOT/
+1. Copy developermenu.efi and ui/ to Windows/System32/BOOT/ (You can obtain them [here](https://github.com/WOA-Project/WOA-Deployer-Lumia/tree/master/Source/Deployer.Lumia/Core/Developer%20Menu))
 
 2. `bcdedit /store .\BCD /create /d "Developer Menu" /application BOOTAPP`
 
