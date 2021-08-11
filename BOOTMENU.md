@@ -11,3 +11,5 @@
 5. `bcdedit /store .\BCD /deletevalue {bootmgr} custom:54000002`
 
 6. `bcdedit /store .\BCD /displayorder {default}`
+
+7. You can now navigate the bootmenu using volume keys, and camera button to start the selected app.
