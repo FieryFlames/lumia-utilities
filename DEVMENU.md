@@ -2,7 +2,7 @@
 
 1. Copy developermenu.efi and ui/ to Windows/System32/BOOT/
 
-2. `bcdedit /store .\BCD /create /d ""Developer Menu"" /application BOOTAPP`
+2. `bcdedit /store .\BCD /create /d "Developer Menu" /application BOOTAPP`
 
 3. Copy the GUILD with the brackets. From now on paste that in place of <guid>
 
